@@ -10,8 +10,7 @@ header{
 #tabella th{
     background-color: aqua;
     color: white;
-    border-collapse:collapse;
-    width: 100%;
+    
 }
 .color-raw{
     background-color: aqua;
