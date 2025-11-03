@@ -7,9 +7,12 @@ header{
 #logobooleaner{
     width: 150px;
 }
-#foto1{
-    display: inline-block;
+#tabella th{
+    background-color: aqua;
+    color: white;
+    border-collapse:collapse;
+    width: 100%;
 }
-#foto2{
-    display: inline-block
+.color-raw{
+    background-color: aqua;
 }
