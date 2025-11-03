@@ -1,3 +1,16 @@
 header{
-    background-image: url(./img/pattern.png);
+    background-color: aqua;
+    background-size: 250px;
+    background-image: url(../img/pattern.png);
+    padding-top:30px;
+}
+#logobooleaner{
+    width: 150px;
+    border: 2px solid black;
+}
+#foto1{
+    display: inline-block;
+}
+#foto2{
+    display: inline-block
 }
