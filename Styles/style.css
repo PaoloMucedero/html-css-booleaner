@@ -16,3 +16,67 @@ header{
     height: 50px;
     margin-right: 10px;
 }
+
+/* ARTICOLO */
+main{
+    padding: 20px;
+}
+main h2{
+    color: #333;
+}
+.autore{
+    color: #777;
+    font-size: 0.9em;
+}
+.blue{
+    color: #3b80e0;
+}
+.immagini img{
+    width: 48%;
+    margin-right: 2%;
+}
+.crediti{
+    font-size: 0,8em;
+    color: #555;
+}
+mark{
+    background-color: yellow;
+}
+
+/* LISTA */
+ul{
+    margin-top: 10px;
+}
+/* TABELLA */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th{
+    background-color: #bde0fe;
+    text-align: left;
+    padding: 8px;
+}
+td{
+    background-color: #e7f3ff;
+    padding: 8px;
+}
+
+/* FOOTER */
+footer{
+    color: white;
+    padding: 20px;
+}
+.articoli-footer{
+    display: flex;
+    gap: 10px;
+}
+.mini-articolo img{
+    width: 100%;
+}
+.mini-articolo p {
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+}
