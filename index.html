@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <img id="logobooleaner" src="./img/logo.svg" alt="Logo The Booleaner">
+        <img class="logoheader" src="./img/logo.svg" alt="Logo The Booleaner">
     </header>
 
     <main>
@@ -19,27 +19,26 @@
                 Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-lee
             </h1>
             <div>
-                <h3>
-                    Scritto da The Booleaner
-                </h3>
+                <p class="autore">
+                    Scritto da <span class="blue"> The Booleaner</span><br> il 4/11/2025
+                </p>
             </div>
 
-            <figure>
-                <img id="foto1" src="./img/tim-1.jpg" alt="Tim Berners-Lee sul palco della Knight Foundation">
-                <img id="foto2" src="./img/tim-2.jpg" alt="Ritratto di Tim Berners-Lee">
-                <figcaption>
-                    Ist Photo: John S. and James L. Knight Foundation, by Scott Henrichsen
-                </figcaption>
-                <figcaption>
-                    2nd Photo: Wikimedia, by Paul Clarke
-                </figcaption>
-            </figure>
+            <div class="immagini">
+                <img src="./img/tim-1.jpg" alt="Tim Berners-Lee sul palco della Knight Foundation">
+                <img src="./img/tim-2.jpg" alt="Ritratto di Tim Berners-Lee">
+            </div>
+            <p class="caption">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen<br>
+                2nd Photo: Wikimedia, by Paul Clarke
+            </p>
 
             <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud <mark>exerci
+                    tation
+                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</mark>. Duis autem vel eum
+                iriure dolor
+                in hendrerit in vulputate velit esse molestie consequat, illum dolore eu feugiat nulla facilisis at
                 vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
                 zzril delenit augue duis dolore te feugait nulla facilisi.
             </p>
@@ -65,9 +64,9 @@
                     <td>Germany</td>
                 </tr>
                 <tr>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
+                    <td>Lorem ipsum</td>
+                    <td>Lorem ipsum</td>
+                    <td>Lorem ipsum</td>
                 </tr>
                 <tr class="color-raw">
                     <td>Lorem ipsum</td>
@@ -79,19 +78,22 @@
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
                 laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
                 ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+                in hendrerit in vulputate velit esse molestie consequat, <mark> vel illum dolore eu feugiat nulla facilisis at
+                vero eros et accumsan et iusto</mark> odio dignissim qui blandit praesent luptatum
                 zzril delenit augue duis dolore te feugait nulla facilisi.
             </p>
         </article>
     </main>
     <footer>
-        <p>Potrebbero interessarti</p>
-        <div>
+        <h3>Potrebbero interessarti</h3>
+        <div class="articoli-footer">
+            <div class="mini-articolo">
             <img src="./img/monitor.jpg" alt="Monitor acceso">
+            <p>lorem ipsum dolor</p>
         </div>
-        <div>
+        <div class="mini-articolo">
             <img src="./img/graph.jpg" alt="Schermata dati">
+            <p>lorem ipsum dolor</p>
         </div>
     </footer>
 
