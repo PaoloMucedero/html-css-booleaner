@@ -1,17 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* HEADER */
 header{
-    background-color: aqua;
-    background-size: 250px;
-    background-image: url(../img/pattern.png);
-    padding-top:30px;
-}
-#logobooleaner{
-    width: 150px;
-}
-#tabella th{
-    background-color: aqua;
+    background-color: #7cdbf0;
     color: white;
-    
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-image: url(../img/pattern.png);
 }
-.color-raw{
-    background-color: aqua;
+.logoheader{
+    height: 50px;
+    margin-right: 10px;
 }
